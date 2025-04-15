@@ -1,0 +1,7 @@
+Yoyi Liao.749
+
+Q1: no, I got different result everytime I run.
+
+Q2: yes, I always get the same result
+
+Q3: yes. Instead of locking sum within the loop, I declared a local variable called localSum and sum it up in localSum. I then pulled the lock outside the loop so it only have to lock and unlock sum once. I then plus sum with localSum inside lock. 
